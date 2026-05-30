@@ -18,6 +18,8 @@ func main() {
 		return
 	}
 	fmt.Println(password)
+	fmt.Println("Premi Invio per uscire...")
+	fmt.Scanln()
 }
 
 func generatePassword(length int) (string, error) {
