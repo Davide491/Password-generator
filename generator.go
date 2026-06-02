@@ -17,7 +17,12 @@ func main() {
 		fmt.Println("Errore nella generazione della password:", err)
 		return
 	}
-	fmt.Println(password)
+
+	fmt.Println("Premi Invio generare password..")
+	fmt.Scanln()
+
+	fmt.Println("Password generata:", password)
+
 	fmt.Println("Premi Invio per uscire...")
 	fmt.Scanln()
 }
