@@ -18,12 +18,12 @@ func main() {
 		return
 	}
 
-	fmt.Println("Premi Invio generare password..")
+	fmt.Println("Press enter to generate password...")
 	fmt.Scanln()
 
-	fmt.Println("Password generata:", password)
+	fmt.Println("Password generated:", password)
 
-	fmt.Println("Premi Invio per uscire...")
+	fmt.Println("Press enter for exit...")
 	fmt.Scanln()
 }
 
